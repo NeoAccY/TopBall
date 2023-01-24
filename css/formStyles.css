@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('../img/imagen.jpg');
+  }
+  
+  .form-register {
+    width: 600px;
+    background: #24303c;
+    /* background: #6D6D6D; */
+    padding: 30px;
+    margin: auto;
+    /* margin-top: 100px; */
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .content-cards {
+    width: 65%;
+  }
+  .cardt {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card-texto {
+    text-align: justify;
+    margin: 25;
+  }
+  
+  .accordion{
+    margin-bottom: 35;
+  }
+  
+  .info_perfil {
+    width: 90%;
+    background: #75002d;
+    padding: 25px;
+    margin: auto;
+    font-family: sans-serif;
+    color: #fff;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 8px;
+    text-align: center;
+    
+  }
+  
+  .info_login {
+    color: #fff;
+    background: #24303c;
+    width: 350px;
+    text-align: justify;
+    padding: 15px 15px 15px 15px;
+    margin: 5;
+    border-radius: 5px;
+    display:inline-block;
+  }
+  
+  .info_login h4{
+    text-align: center;
+  }
+  
+  .info_login h6{
+    height: 35;
+    background-color: #6D6D6D;
+    padding: 10;
+    padding-bottom: 10;
+    border-radius: 8px;  
+  }
+  
+  .btn1 {
+    outline: 0;
+    /* background: #ef3b3a; */
+    background: #ffff;
+    width: 50%;
+    padding: 8px;
+    border: 0;
+    margin-left: 85px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #830836;
+    font-size: 14px;
+    font-weight: bold;
+    /* transition: all 0.3 ease; */
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    /* background: #757575; */
+    background: #830836;
+    color: #ffff;
+  }
+  
+  .controls, .cont_select, .num {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .rad {
+    width: 20%;
+    background: #24303c;
+    padding: 10px;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  .cont_select, .num {
+    width: 45%;
+    color: #6D6D6D;
+  }
+  
+  .form-register select, .controldati {
+    color: #6D6D6D;
+    height: 48px;
+    width: 40%;
+    font-size: 18px;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    /* color: white; */
+    color: #d12802;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 50%;
+    background: #1f53c5;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 18px;
+    margin-left: 25%;
+  }
+  
+  .botons:hover {
+    background: #F4F0F0;
+    color: #d12802;
+    font-weight: bold;
+  }
+  
+  .botons{
+    font-family: 'calibri';
+    margin-bottom: 15;
+    background-color: #d12802;
+    margin-left: 20px;
+    margin-top: -10px;
+    color: white;
+    text-align: center;
+    padding: 7;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .boton:hover {
+    background: #24303c;
+    color: #F4F0F0;
+    font-weight:normal;
+  }
